@@ -14,7 +14,7 @@
 </head>
 
 <body style="background-color: aliceblue;">
-    <div style="width: 100vw; height: 100vh;" class="d-flex flex-column">
+    <div style="max-width: 850px;width: 100vw; height: 100vh;" class="d-flex flex-column mx-auto">
         <div class="mx-auto">
             <div class="d-inline-block" style="font-size: 3rem;">
                 Michał Rykowski
@@ -27,7 +27,7 @@
         </div>
         <hr>
         <!-- Contact -->
-        <div id="contact" class="container-fluid" style="text-align: center; font-size: large;">
+        <div id="contact" class="container-fluid" style="text-align: center; font-size: 1.4rem;">
             <div class="row">
                 <div class="col">
                     <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-envelope" fill="currentColor"
@@ -107,6 +107,9 @@
             <h2>Personal Projects:</h2>
             <ul>
                 <li>Auction House</li>
+                <div class="project-desc">
+                    App used for trading items between players, balance and auctions are kept on backend database.
+                </div>
                 <ul style="font-size: 1.5rem;">
                     <li>Users interact with Angular frontend</li>
                     <li>Backend REST API uses JWT Authorization</li>
@@ -114,6 +117,10 @@
                     <li>Basic CRUD functionality</li>
                 </ul>
                 <li>Restaurant</li>
+                <div class="project-desc">
+                    Restaurant app that helps running business. 
+                    Provides hidden panel for workers that can change work hours, menu, manage orders and view orders history.
+                </div>
                 <ul style="font-size: 1.5rem;">
                     <li>ASP.NET Core MVC</li>
                     <li>Identity authorization for workers</li>
@@ -122,6 +129,10 @@
                     <li>Shows work times if user tries to access site at time at which restaurant is closed</li>
                 </ul>
                 <li>Post Work</li>
+                <div class="project-desc">
+                    App used for posting job offers and reviewing submission for them.
+                    Applicants can search offers by tags that creators used for them, and can check status of all submissions they made.
+                </div>
                 <ul style="font-size: 1.5rem;">
                     <li>App used to post job offers and apply to them</li>
                     <li>Users can filter offers based on tags such as C#, ASP.NET</li>
@@ -130,8 +141,6 @@
                 </ul>
             </ul>
         </div>
-        <hr />
         <!-- Projects end -->
-
     </div>
 </body>
